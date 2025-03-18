@@ -70,7 +70,7 @@ Here are some of my latest projects that I’ve been working on:
 - 🔥 **[AWS Infrastructure Automation](https://github.com/manjunath-start/AWS-IaC)**  
   - Built an Infrastructure as Code (IaC) pipeline using Terraform and AWS CloudFormation.
 
-- ⚡ **[End-to-End CI/CD Pipeline](https://github.com/manjunath-start/CI-CD-Pipeline)**  
+- ⚡ **[End-to-End CI/CD Pipeline](https://github.com/manjunath-start/devops-build-task)**  
   - Implemented a full DevOps pipeline with automated testing, containerization, and Kubernetes deployment.
 
 ---
