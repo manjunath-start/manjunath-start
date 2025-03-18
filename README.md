@@ -28,7 +28,7 @@ Here are some of my featured projects:
 |--------------|-------------|------------|
 | [**DevOps-Toolkit**](https://github.com/manjunath-start/DevOps-Toolkit) | A collection of scripts, templates, and configurations for DevOps automation | Kubernetes, Terraform, Ansible, Helm |
 | [**K8s-Cluster-Setup**](https://github.com/manjunath-start/K8s-Cluster-Setup) | Automated Kubernetes cluster setup and deployment strategies | Kubernetes, Helm, AWS, ArgoCD |
-| [**CI-CD-Pipeline**](https://github.com/manjunath-start/CI-CD-Pipeline) | A GitHub Actions-based CI/CD pipeline for containerized applications | Docker, GitHub Actions, Kubernetes |
+| [**CI-CD-Pipeline**](https://github.com/manjunath-start/devops-build-task) | A GitHub Actions-based CI/CD pipeline for containerized applications | Docker, GitHub Actions, Kubernetes |
 
 ---
 
