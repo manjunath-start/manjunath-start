@@ -67,7 +67,7 @@ Here are some of my latest projects that I’ve been working on:
 - 🔧 **[Microservices Deployment on Kubernetes](https://github.com/manjunath-start/Microservices-K8s)**  
   - Deployed a complete microservices architecture using Kubernetes, Helm, and ArgoCD.
 
-- 🔥 **[AWS Infrastructure Automation](https://github.com/manjunath-start/AWS-IaC)**  
+- 🔥 **[AWS Infrastructure Automation](https://github.com/manjunath-start/aws-cloudformation-template/tree/aws-cloudformation-ec2)**  
   - Built an Infrastructure as Code (IaC) pipeline using Terraform and AWS CloudFormation.
 
 - ⚡ **[End-to-End CI/CD Pipeline](https://github.com/manjunath-start/devops-build-task)**  
@@ -78,7 +78,7 @@ Here are some of my latest projects that I’ve been working on:
 ## 🔗 Connect with Me  
 <p align="left">
 <a href="https://twitter.com/manjunathdc_30" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40"/></a>
-<a href="https://linkedin.com/in/manjunath-start" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/></a>
+<a href="https://www.linkedin.com/in/manjunath-dc-562566192/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/></a>
 </p>
 
 ---
