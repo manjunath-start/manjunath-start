@@ -19,9 +19,9 @@
 
 ## 👋 About Me
 
-I'm an **AIOps Engineer and Site Reliability Engineer** with 5+ years operating and automating production systems across **AWS, Azure, and GCP**. My focus for the last 3+ years has been **AIOps**: building observability platforms that don't just show dashboards, but actively correlate signals, cut alert noise, and help teams find and fix problems faster — often before they page anyone.
+I'm an **AIOps Engineer and Site Reliability Engineer** with 5+ years operating and automating production systems across **AWS, Azure, and GCP**. My focus for the last 3+ years has been **AIOps**: building observability platforms that don't just show dashboards, but actively correlate signals, cut alert noise, and help teams find and fix problems faster, often before they page anyone.
 
-I work across the full production lifecycle — designing Kubernetes and cloud infrastructure, building CI/CD pipelines, running incident response and on-call rotations, and writing the automation that keeps systems self-healing. More recently, that has extended into **AI engineering**: monitoring LLM/SLM inference workloads, detecting model drift, and building agentic and LLM-reasoning-based automation for operational tasks.
+I work across the full production lifecycle designing Kubernetes and cloud infrastructure, building CI/CD pipelines, running incident response and on-call rotations, and writing the automation that keeps systems self-healing. More recently, that has extended into **AI engineering**: monitoring LLM/SLM inference workloads, detecting model drift, and building agentic and LLM reasoning based automation for operational tasks.
 
 ```yaml
 role:        AIOps Engineer / AI Forward Deployed Engineer / SRE
@@ -47,7 +47,7 @@ believes_in: "If it's not observable, it's not production-ready."
 ### ⚡ How I Work
 
 - Automate the toil first, then automate the response
-- Alerts should mean something — tune for signal, not noise
+- Alerts should mean something  tune for signal, not noise
 - Every incident gets an RCA and a follow-up, not just a fix
 - Infrastructure and policy belong in code and version control
 - Small, safe, reversible changes over big-bang deployments
@@ -105,7 +105,7 @@ believes_in: "If it's not observable, it's not production-ready."
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 > Enterprise client project names are confidential, so the work below is my own engineering — built to demonstrate the same production-grade patterns (observability, AIOps, IaC, safe automation) I apply professionally.
 
@@ -113,7 +113,7 @@ believes_in: "If it's not observable, it's not production-ready."
 <tr>
 <td width="100%">
 
-### 🛰️ [Agentic Commerce Observability](https://github.com/manjunath-start/agentic-commerce-observability)
+### [Agentic Commerce Observability](https://github.com/manjunath-start/agentic-commerce-observability)
 **Production-style multi-cloud observability platform for an agentic AI commerce system.**
 
 Monitors **4 Kubernetes clusters across AWS, Azure, and GCP**, covering **13 AI agents, 7 adversarial "anti-agents," 6 small language models** on a GPU serving fleet, and a PCI-scoped payment path — entirely defined as Infrastructure as Code.
@@ -148,7 +148,7 @@ Ingests Prometheus/Alertmanager alerts, classifies them, and decides on a remedi
 <tr>
 <td width="100%">
 
-### 📦 [DOFS — Distributed Order Fulfillment System](https://github.com/manjunath-start/dofs-project)
+### [DOFS — Distributed Order Fulfillment System](https://github.com/manjunath-start/dofs-project)
 **Serverless order-processing architecture on AWS, built infrastructure-first.**
 
 A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoDB, and SQS** to validate, store, and fulfill customer orders — with failure handling as a first-class concern, not an afterthought.
@@ -165,7 +165,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 <tr>
 <td width="100%">
 
-### 🔧 [DevOps Application Deployment Capstone](https://github.com/manjunath-start/devops-build-task)
+### [DevOps Application Deployment Capstone](https://github.com/manjunath-start/devops-build-task)
 **End-to-end CI/CD pipeline: Jenkins, Docker, and AWS EC2.**
 
 - Built a **Jenkins multibranch pipeline** that builds and tags Docker images differently per branch (`dev` vs `master` → `prod`) and pushes them to Docker Hub
@@ -179,7 +179,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 <tr>
 <td width="100%">
 
-### 🎙️ [Autonomous Learning — Voice-Enabled AI Companion Platform](https://github.com/manjunath-start/personalized_learning)
+### [Autonomous Learning — Voice-Enabled AI Companion Platform](https://github.com/manjunath-start/personalized_learning)
 **Full-stack AI agent product: voice-based, personalized learning experiences.**
 
 - Integrated **Vapi.ai** for real-time voice interactions with AI tutoring companions, built on **Next.js**, **TypeScript**, and **Convex** for real-time backend/state
