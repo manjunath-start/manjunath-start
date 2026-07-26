@@ -36,10 +36,10 @@ believes_in: "If it's not observable, it's not production-ready."
 
 ### What I Work On
 
-- **AIOps & Observability** — Prometheus, Grafana, ELK/Splunk, CloudWatch, AI-assisted anomaly detection, SLO/SLI & error-budget engineering
-- **Cloud & Platform Engineering** — AWS, Azure, GCP, OpenStack, Kubernetes, multi-cloud architecture
-- **Production Reliability (SRE)** — incident management, RCA, blameless postmortems, on-call leadership, resiliency patterns
-- **AI Engineering** — LLM/SLM inference monitoring, model drift detection, AI model integration, agentic automation
+- **AIOps & Observability**  Prometheus, Grafana, ELK/Splunk, CloudWatch, AI-assisted anomaly detection, SLO/SLI & error-budget engineering
+- **Cloud & Platform Engineering**  AWS, Azure, GCP, OpenStack, Kubernetes, multi-cloud architecture
+- **Production Reliability (SRE)**  incident management, RCA, blameless postmortems, on-call leadership, resiliency patterns
+- **AI Engineering**  LLM/SLM inference monitoring, model drift detection, AI model integration, agentic automation
 
 </td>
 <td width="50%" valign="top">
@@ -49,8 +49,8 @@ believes_in: "If it's not observable, it's not production-ready."
 - Automate the toil first, then automate the response
 - Alerts should mean something  tune for signal, not noise
 - Every incident gets an RCA and a follow-up, not just a fix
-- Infrastructure and policy belong in code and version control
-- Small, safe, reversible changes over big-bang deployments
+ Infrastructure and policy belong in code and version control
+ Small, safe, reversible changes over bigbang deployments
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ believes_in: "If it's not observable, it's not production-ready."
 ### [Agentic Commerce Observability](https://github.com/manjunath-start/agentic-commerce-observability)
 **Production-style multi-cloud observability platform for an agentic AI commerce system.**
 
-Monitors **4 Kubernetes clusters across AWS, Azure, and GCP**, covering **13 AI agents, 7 adversarial "anti-agents," 6 small language models** on a GPU serving fleet, and a PCI-scoped payment path — entirely defined as Infrastructure as Code.
+Monitors **4 Kubernetes clusters across AWS, Azure, and GCP**, covering **13 AI agents, 7 adversarial "anti-agents," 6 small language models** on a GPU serving fleet, and a PCI-scoped payment path  entirely defined as Infrastructure as Code.
 
 - Designed a **Prometheus + Thanos + Grafana + Alertmanager** stack with a two-tier query model: local Prometheus per cluster for pod-level debugging, global Thanos Query for cross-cluster SLO evaluation
 - Built **8 Grafana dashboards (146 panels)** and multi-window, multi-burn-rate **SLO alerting** (fast/slow burn, budget tickets) so paging is proportional to how fast error budget is actually being consumed
@@ -131,10 +131,10 @@ Monitors **4 Kubernetes clusters across AWS, Azure, and GCP**, covering **13 AI 
 <tr>
 <td width="100%">
 
-### [Aegis — AIOps Self-Healing & Auto-Remediation Framework](https://github.com/manjunath-start/aegis-aiops)
+### [Aegis  AIOps Self-Healing & Auto-Remediation Framework](https://github.com/manjunath-start/aegis-aiops)
 **An AIOps control loop that reasons about production incidents and fixes them safely.**
 
-Ingests Prometheus/Alertmanager alerts, classifies them, and decides on a remediation using **deterministic playbooks combined with a local LLM (Ollama) reasoning layer** — then executes it against Kubernetes through a pluggable executor, with every action guarded and audited.
+Ingests Prometheus/Alertmanager alerts, classifies them, and decides on a remediation using **deterministic playbooks combined with a local LLM (Ollama) reasoning layer**  then executes it against Kubernetes through a pluggable executor, with every action guarded and audited.
 
 - Built the alert → classify → LLM-analyze → decide → execute → record control loop as an async **FastAPI** service with typed, testable modules
 - Added **safety guardrails**: rate limiting, blast-radius caps, dry-run mode, and human-approval gates, so an autonomous remediation system stays trustworthy rather than a liability
@@ -148,14 +148,14 @@ Ingests Prometheus/Alertmanager alerts, classifies them, and decides on a remedi
 <tr>
 <td width="100%">
 
-### [DOFS — Distributed Order Fulfillment System](https://github.com/manjunath-start/dofs-project)
+### [DOFS  Distributed Order Fulfillment System](https://github.com/manjunath-start/dofs-project)
 **Serverless order-processing architecture on AWS, built infrastructure-first.**
 
 A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoDB, and SQS** to validate, store, and fulfill customer orders with failure handling as a first-class concern, not an afterthought.
 
 - Designed a **Step Functions**-orchestrated order workflow with a **dead-letter queue and failed-orders table** so bad orders are caught, retried, and made visible rather than silently dropped
 - Authored the entire platform in **Terraform**, including remote state locking (S3 + DynamoDB) across environments
-- Built a **CodePipeline/CodeBuild CI/CD pipeline** with a Terraform plan stage, a manual approval gate, and an apply stage — plus SNS notifications on pipeline state changes
+- Built a **CodePipeline/CodeBuild CI/CD pipeline** with a Terraform plan stage, a manual approval gate, and an apply stage  plus SNS notifications on pipeline state changes
 - Wrote an automated test suite covering both successful order flows and DLQ/failure-handling paths, verified against real CloudWatch alarms and dashboards
 
 `AWS Lambda` `API Gateway` `Step Functions` `DynamoDB` `SQS` `Terraform` `CodePipeline` `CloudWatch`
@@ -179,7 +179,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 <tr>
 <td width="100%">
 
-### [Autonomous Learning — Voice-Enabled AI Companion Platform](https://github.com/manjunath-start/personalized_learning)
+### [Autonomous Learning  Voice-Enabled AI Companion Platform](https://github.com/manjunath-start/personalized_learning)
 **Full-stack AI agent product: voice-based, personalized learning experiences.**
 
 - Integrated **Vapi.ai** for real-time voice interactions with AI tutoring companions, built on **Next.js**, **TypeScript**, and **Convex** for real-time backend/state
