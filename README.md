@@ -17,7 +17,7 @@
 
 <br/>
 
-## 👋 About Me
+## About Me
 
 I'm an **AIOps Engineer and Site Reliability Engineer** with 5+ years operating and automating production systems across **AWS, Azure, and GCP**. My focus for the last 3+ years has been **AIOps**: building observability platforms that don't just show dashboards, but actively correlate signals, cut alert noise, and help teams find and fix problems faster, often before they page anyone.
 
@@ -34,7 +34,7 @@ believes_in: "If it's not observable, it's not production-ready."
 <tr>
 <td width="50%" valign="top">
 
-### 🔭 What I Work On
+### What I Work On
 
 - **AIOps & Observability** — Prometheus, Grafana, ELK/Splunk, CloudWatch, AI-assisted anomaly detection, SLO/SLI & error-budget engineering
 - **Cloud & Platform Engineering** — AWS, Azure, GCP, OpenStack, Kubernetes, multi-cloud architecture
@@ -44,7 +44,7 @@ believes_in: "If it's not observable, it's not production-ready."
 </td>
 <td width="50%" valign="top">
 
-### ⚡ How I Work
+### How I Work
 
 - Automate the toil first, then automate the response
 - Alerts should mean something  tune for signal, not noise
@@ -58,7 +58,7 @@ believes_in: "If it's not observable, it's not production-ready."
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -131,7 +131,7 @@ Monitors **4 Kubernetes clusters across AWS, Azure, and GCP**, covering **13 AI 
 <tr>
 <td width="100%">
 
-### 🤖 [Aegis — AIOps Self-Healing & Auto-Remediation Framework](https://github.com/manjunath-start/aegis-aiops)
+### [Aegis — AIOps Self-Healing & Auto-Remediation Framework](https://github.com/manjunath-start/aegis-aiops)
 **An AIOps control loop that reasons about production incidents and fixes them safely.**
 
 Ingests Prometheus/Alertmanager alerts, classifies them, and decides on a remediation using **deterministic playbooks combined with a local LLM (Ollama) reasoning layer** — then executes it against Kubernetes through a pluggable executor, with every action guarded and audited.
@@ -193,7 +193,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 </table>
 
 <details>
-<summary><b>📂 Additional repositories (infrastructure, automation & scripting)</b></summary>
+<summary><b> Additional repositories (infrastructure, automation & scripting)</b></summary>
 <br/>
 
 | Repository | Description | Stack |
@@ -211,7 +211,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 
 ---
 
-## 🏆 Career Highlights
+## Career Highlights
 
 - Led an AIOps/SRE pod sustaining **99.95% platform availability** across 140+ microservices on multi-cloud Kubernetes, serving 12M+ requests/day
 - Cut **alert noise by 58%** and reduced **average MTTR from 45 to 19 minutes** by consolidating monitoring into a unified observability stack with AI-assisted anomaly detection
@@ -221,7 +221,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 
 ---
 
-## 📜 Certifications
+## Certifications
 
 ![AWS](https://img.shields.io/badge/AWS%20Certified%20Developer%20–%20Associate-In%20Progress-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![CKAD](https://img.shields.io/badge/CKAD-In%20Progress-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -229,7 +229,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 
 ---
 
-## 🐍 Contribution Activity
+## Contribution Activity
 
 <div align="center">
 <picture>
@@ -242,7 +242,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=manjunath-start&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
@@ -262,7 +262,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 
 <div align="center">
 
-### 📫 Let's Connect
+### Let's Connect
 
 [![Email](https://img.shields.io/badge/-manjunath.dc1995@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjunath.dc1995@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-Manjunath%20DC-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjunath-dc-562566192/)
