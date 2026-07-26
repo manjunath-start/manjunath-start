@@ -107,7 +107,7 @@ believes_in: "If it's not observable, it's not production-ready."
 
 ## Featured Projects
 
-> Enterprise client project names are confidential, so the work below is my own engineering — built to demonstrate the same production-grade patterns (observability, AIOps, IaC, safe automation) I apply professionally.
+> Enterprise client project names are confidential, so the work below is my own engineering built to demonstrate the same production-grade patterns (observability, AIOps, IaC, safe automation) I apply professionally.
 
 <table>
 <tr>
@@ -120,9 +120,9 @@ Monitors **4 Kubernetes clusters across AWS, Azure, and GCP**, covering **13 AI 
 
 - Designed a **Prometheus + Thanos + Grafana + Alertmanager** stack with a two-tier query model: local Prometheus per cluster for pod-level debugging, global Thanos Query for cross-cluster SLO evaluation
 - Built **8 Grafana dashboards (146 panels)** and multi-window, multi-burn-rate **SLO alerting** (fast/slow burn, budget tickets) so paging is proportional to how fast error budget is actually being consumed
-- Defined **agent-specific SLIs with no classical equivalent** — grounding score, hallucination rate, safety-review coverage, KV-cache saturation — to catch failure modes standard RED-metric monitoring misses entirely
+- Defined **agent-specific SLIs with no classical equivalent** grounding score, hallucination rate, safety-review coverage, KV-cache saturation to catch failure modes standard RED-metric monitoring misses entirely
 - Enforced **cardinality and label governance** (forbidden high-cardinality labels dropped at ingest, CI-validated recording-rule naming) and **PCI-aware payment SLIs** that separate system failures from customer card declines
-- Delivered fully as **Terraform-provisioned, Git-reviewed** infrastructure — dashboards and alerts are version-controlled, never edited by hand in the UI
+- Delivered fully as **Terraform-provisioned, Git-reviewed** infrastructure dashboards and alerts are version-controlled, never edited by hand in the UI
 
 `Prometheus` `Thanos` `Grafana` `Alertmanager` `Kubernetes` `Terraform` `AWS/Azure/GCP` `SLO Engineering`
 
@@ -151,7 +151,7 @@ Ingests Prometheus/Alertmanager alerts, classifies them, and decides on a remedi
 ### [DOFS — Distributed Order Fulfillment System](https://github.com/manjunath-start/dofs-project)
 **Serverless order-processing architecture on AWS, built infrastructure-first.**
 
-A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoDB, and SQS** to validate, store, and fulfill customer orders — with failure handling as a first-class concern, not an afterthought.
+A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoDB, and SQS** to validate, store, and fulfill customer orders with failure handling as a first-class concern, not an afterthought.
 
 - Designed a **Step Functions**-orchestrated order workflow with a **dead-letter queue and failed-orders table** so bad orders are caught, retried, and made visible rather than silently dropped
 - Authored the entire platform in **Terraform**, including remote state locking (S3 + DynamoDB) across environments
@@ -265,7 +265,7 @@ A modular serverless system using **Lambda, API Gateway, Step Functions, DynamoD
 ### Let's Connect
 
 [![Email](https://img.shields.io/badge/-manjunath.dc1995@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manjunath.dc1995@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Manjunath%20DC-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjunath-dc-562566192/)
+[![LinkedIn](https://img.shields.io/badge/-manjunath%20DC-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manjunath-dc-562566192/)
 [![Twitter](https://img.shields.io/badge/-@manjunathdc__30-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/manjunathdc_30)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" width="100%"/>
